@@ -1,73 +1,181 @@
-# Welcome to your Lovable project
 
-## Project info
+# TaskManager Pro - Week 3 React Assignment
 
-**URL**: https://lovable.dev/projects/6cfd77f2-c11b-480b-8302-40c626e8a52b
+A comprehensive React application demonstrating modern front-end development practices with component architecture, state management, API integration, and responsive design.
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+### Task Management
+- ✅ Add, complete, and delete tasks
+- 🔍 Filter tasks (All, Active, Completed)
+- 💾 Persistent storage using localStorage
+- 🎯 Real-time task counters
 
-**Use Lovable**
+### API Integration
+- 📡 Fetch posts from JSONPlaceholder API
+- 🔍 Search functionality for posts
+- 📄 Pagination with 6 posts per page
+- ⚡ Loading and error states
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6cfd77f2-c11b-480b-8302-40c626e8a52b) and start prompting.
+### UI/UX
+- 🌙 Dark/Light theme switching
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- ✨ Smooth animations and transitions
+- 🎨 Modern card-based layout
+- 🧭 Clean navigation with active states
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technical Implementation
 
-**Use your preferred IDE**
+### Component Architecture
+- **Reusable Components**: Button, Card, Navbar, Footer, Layout
+- **Page Components**: Tasks, Posts, NotFound
+- **Feature Components**: TaskManager, PostsList
+- **Props-based customization** for flexibility
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### State Management & Hooks
+- **useState**: Component state management
+- **useEffect**: Side effects and API calls
+- **useContext**: Theme management (ThemeContext)
+- **Custom Hooks**: 
+  - `useLocalStorage`: Persistent task storage
+  - `usePosts`: API data management with search and pagination
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Styling
+- **Tailwind CSS**: Utility-first styling
+- **Responsive Design**: Mobile-first approach
+- **Dark Mode**: Context-based theme switching
+- **Animations**: Custom fade-in animations for better UX
 
-Follow these steps:
+## 📁 Project Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/          # Reusable UI components
+│   ├── Button.tsx       # Multi-variant button component
+│   ├── Card.tsx         # Flexible card container
+│   ├── Navbar.tsx       # Navigation with theme toggle
+│   ├── Footer.tsx       # Footer with links
+│   ├── Layout.tsx       # Page layout wrapper
+│   ├── TaskManager.tsx  # Complete task management
+│   └── PostsList.tsx    # API posts display
+├── contexts/
+│   └── ThemeContext.tsx # Theme state management
+├── hooks/
+│   ├── useLocalStorage.ts # Local storage hook
+│   └── usePosts.ts      # Posts API hook
+├── pages/
+│   ├── Tasks.tsx        # Tasks page
+│   ├── Posts.tsx        # Posts page
+│   └── NotFound.tsx     # 404 page
+└── lib/
+    └── utils.ts         # Utility functions
 ```
 
-**Edit a file directly in GitHub**
+## 🎯 Assignment Requirements Coverage
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### ✅ Task 1: Project Setup
+- React application with Vite
+- Tailwind CSS configured
+- Organized project structure
+- React Router for navigation
 
-**Use GitHub Codespaces**
+### ✅ Task 2: Component Architecture
+- Button component with variants (primary, secondary, danger)
+- Card component for content display
+- Navbar with navigation and theme toggle
+- Footer with links and information
+- Layout component wrapping pages
+- Props-based customization throughout
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### ✅ Task 3: State Management and Hooks
+- TaskManager with full CRUD operations
+- useState for component state
+- useEffect for loading saved tasks
+- useContext for theme management
+- Custom useLocalStorage hook for persistence
 
-## What technologies are used for this project?
+### ✅ Task 4: API Integration
+- JSONPlaceholder API integration
+- Posts display in grid layout
+- Loading and error states
+- Pagination (6 posts per page)
+- Search functionality for filtering
 
-This project is built with:
+### ✅ Task 5: Styling with Tailwind CSS
+- Fully responsive design
+- Dark/light theme implementation
+- Tailwind utility classes throughout
+- Custom animations and transitions
+- Modern, professional design
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🚀 Getting Started
 
-## How can I deploy this project?
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd taskmanager-pro
+   ```
 
-Simply open [Lovable](https://lovable.dev/projects/6cfd77f2-c11b-480b-8302-40c626e8a52b) and click on Share -> Publish.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Can I connect a custom domain to my Lovable project?
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-Yes, you can!
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🌐 Live Demo
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[Live Application URL] - Add your deployed URL here
+
+## 📸 Screenshots
+
+### Desktop View - Tasks Page
+![Tasks Desktop](screenshots/tasks-desktop.png)
+
+### Mobile View - Posts Page
+![Posts Mobile](screenshots/posts-mobile.png)
+
+### Dark Mode
+![Dark Mode](screenshots/dark-mode.png)
+
+## 🔧 Technologies Used
+
+- **React 18** - UI library
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **React Router** - Navigation
+- **Vite** - Build tool
+- **Lucide React** - Icons
+- **JSONPlaceholder** - API data
+
+## 📝 Key Features Demonstrated
+
+1. **Modern React Patterns**: Functional components, hooks, context
+2. **Type Safety**: Full TypeScript implementation
+3. **Performance**: Optimized renders and custom hooks
+4. **Accessibility**: Semantic HTML and keyboard navigation
+5. **User Experience**: Loading states, error handling, animations
+6. **Code Organization**: Clean separation of concerns
+
+## 👨‍💻 Development Notes
+
+- Uses localStorage for task persistence
+- Implements proper error boundaries
+- Follows React best practices
+- Mobile-first responsive design
+- Accessible color contrast ratios
+- Smooth theme transitions
+
+---
+
+**Assignment**: Week 3 - React.js, JSX, and Tailwind CSS  
+**Student**: [Your Name]  
+**Date**: [Current Date]
