@@ -133,7 +133,7 @@ src/
 
 ## 🌐 Live Demo
 
-[Live Application URL] - Add your deployed URL here
+https://react-tailwind-masterpiece.lovable.app
 
 ## 📸 Screenshots
 
