@@ -137,8 +137,6 @@ https://react-tailwind-masterpiece.lovable.app
 
 ## 📸 Screenshots
 
-### Desktop View - Tasks Page
-
 https://drive.google.com/file/d/1LuA3IDOcoez19Tnza-Ns5HMwBI5-SeF7/view?usp=drivesdk
 
 https://drive.google.com/file/d/1Ln32xVkLUrkCR8NsHPjtn_EG1BtRG26w/view?usp=drivesdk
