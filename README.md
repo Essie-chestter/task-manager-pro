@@ -138,13 +138,9 @@ https://react-tailwind-masterpiece.lovable.app
 ## 📸 Screenshots
 
 ### Desktop View - Tasks Page
-![Tasks Desktop](screenshots/tasks-desktop.png)
 
-### Mobile View - Posts Page
 https://drive.google.com/file/d/1LuA3IDOcoez19Tnza-Ns5HMwBI5-SeF7/view?usp=drivesdk
-### dark mode
-https://drive.google.com/file/d/1LuA3IDOcoez19Tnza-Ns5HMwBI5-SeF7/view?usp=drivesdk
-### light mode
+
 https://drive.google.com/file/d/1Ln32xVkLUrkCR8NsHPjtn_EG1BtRG26w/view?usp=drivesdk
 
 ## 🔧 Technologies Used
@@ -175,8 +171,4 @@ https://drive.google.com/file/d/1Ln32xVkLUrkCR8NsHPjtn_EG1BtRG26w/view?usp=drive
 - Accessible color contrast ratios
 - Smooth theme transitions
 
----
 
-**Assignment**: Week 3 - React.js, JSX, and Tailwind CSS  
-**Student**: [Your Name]  
-**Date**: [Current Date]
