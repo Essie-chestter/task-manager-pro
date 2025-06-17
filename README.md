@@ -141,10 +141,11 @@ https://react-tailwind-masterpiece.lovable.app
 ![Tasks Desktop](screenshots/tasks-desktop.png)
 
 ### Mobile View - Posts Page
-![Posts Mobile](screenshots/posts-mobile.png)
-
-### Dark Mode
-![Dark Mode](screenshots/dark-mode.png)
+https://drive.google.com/file/d/1LuA3IDOcoez19Tnza-Ns5HMwBI5-SeF7/view?usp=drivesdk
+### dark mode
+https://drive.google.com/file/d/1LuA3IDOcoez19Tnza-Ns5HMwBI5-SeF7/view?usp=drivesdk
+### light mode
+https://drive.google.com/file/d/1Ln32xVkLUrkCR8NsHPjtn_EG1BtRG26w/view?usp=drivesdk
 
 ## 🔧 Technologies Used
 
